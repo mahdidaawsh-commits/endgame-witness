@@ -1,0 +1,493 @@
+{
+  "contract": "0xC73bf0F91aFc5D4f07936BD386D5722BFB5CA5BB",
+  "deployment": "0x6154a8064aacff7580a1a19740b627af2485a96a02056c10d8481c3ac90e2807",
+  "revision": "373fdf482b8776029a0bff41ecbee6aa30166059",
+  "source_sha256": "b3c101af68f66dec424988f35ce59c456a90706d472274c299abf37df99f87d9",
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x6154a8064aacff7580a1a19740b627af2485a96a02056c10d8481c3ac90e2807",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0x5d341635560d6b92281006e6e8c1d06df9c23aca",
+      "args": {
+        "args": [
+          "krk1:c4,h1,a8"
+        ]
+      },
+      "error": null,
+      "state": {}
+    },
+    {
+      "label": "start",
+      "hash": "0x38849e4fb393f24cea1fefd36a9d8a413727ee3e5f9374246946a10173bee941",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 4,
+      "disagree": 0,
+      "idle": 1,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "start",
+        "args": []
+      },
+      "error": null,
+      "state": {
+        "board": [
+          26,
+          7,
+          56
+        ],
+        "remaining": null,
+        "status": "ACTIVE",
+        "turn": 0
+      }
+    },
+    {
+      "label": "suboptimal",
+      "hash": "0xcf03699fd7c5637923dd44186a20c4e042d34078f70f724f8d6a5b76ff7e59f1",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          0,
+          "h1a1"
+        ]
+      },
+      "error": "Move does not preserve shortest mate",
+      "state": {
+        "board": [
+          26,
+          7,
+          56
+        ],
+        "remaining": null,
+        "status": "ACTIVE",
+        "turn": 0
+      }
+    },
+    {
+      "label": "turn-0",
+      "hash": "0x7cfd61f12d3e999e41bb749df0431e663f63147c56db62bbe40211681f644181",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          0,
+          "c4b5"
+        ]
+      },
+      "error": null,
+      "state": {
+        "board": [
+          33,
+          7,
+          49
+        ],
+        "remaining": 7,
+        "status": "ACTIVE",
+        "turn": 1
+      }
+    },
+    {
+      "label": "turn-1",
+      "hash": "0xc61aed868599121a2bde2ffe693d7466fc85b1384eaaa6fbfbd91a9dedd935d3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          1,
+          "h1c1"
+        ]
+      },
+      "error": null,
+      "state": {
+        "board": [
+          33,
+          2,
+          48
+        ],
+        "remaining": 5,
+        "status": "ACTIVE",
+        "turn": 2
+      }
+    },
+    {
+      "label": "turn-2",
+      "hash": "0x81301cd1639183f2a356adc357d1b87d063d99bdc1b90955ffbd02f7f4954720",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          2,
+          "b5c6"
+        ]
+      },
+      "error": null,
+      "state": {
+        "board": [
+          42,
+          2,
+          56
+        ],
+        "remaining": 3,
+        "status": "ACTIVE",
+        "turn": 3
+      }
+    },
+    {
+      "label": "turn-3",
+      "hash": "0xdd59d795c2b25e693092353416429d0dc6adadc3ece45570df1d5a09c1b4415a",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          3,
+          "c6c7"
+        ]
+      },
+      "error": null,
+      "state": {
+        "board": [
+          50,
+          2,
+          48
+        ],
+        "remaining": 1,
+        "status": "ACTIVE",
+        "turn": 4
+      }
+    },
+    {
+      "label": "turn-4",
+      "hash": "0x888ba9138d251f64f7b386b458825bdb096652d7280eaa129eafc033e37ea5e3",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          4,
+          "c1a1"
+        ]
+      },
+      "error": null,
+      "state": {
+        "board": [
+          50,
+          0,
+          48
+        ],
+        "remaining": 0,
+        "status": "MATE",
+        "turn": 5
+      }
+    },
+    {
+      "label": "terminal",
+      "hash": "0xeef8751a02c3242ca4298fcd2d64a6c5c128979d16ac071ecc8aa16849c2bd67",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xe8ae7fe95c8a65489f02b6622af4eae74c4776a0",
+      "args": {
+        "method": "play",
+        "args": [
+          5,
+          "c1a1"
+        ]
+      },
+      "error": "Session already completed",
+      "state": {
+        "board": [
+          50,
+          0,
+          48
+        ],
+        "remaining": 0,
+        "status": "MATE",
+        "turn": 5
+      }
+    }
+  ],
+  "rounds": [
+    {
+      "before": [
+        26,
+        7,
+        56
+      ],
+      "black": {
+        "depth": 8,
+        "source": "https://tablebase.lichess.ovh/standard?fen=k7/8/8/1K6/8/8/8/7R_b_-_-_0_1",
+        "successors": {
+          "a8a7": 5,
+          "a8b7": 7,
+          "a8b8": 5
+        }
+      },
+      "board": [
+        33,
+        7,
+        49
+      ],
+      "defense": "a8b7",
+      "move": "c4b5",
+      "remaining": 7,
+      "white": {
+        "depth": 9,
+        "source": "https://tablebase.lichess.ovh/standard?fen=k7/8/8/8/2K5/8/8/7R_w_-_-_0_1",
+        "successors": {
+          "c4b3": 16,
+          "c4b4": 12,
+          "c4b5": 8,
+          "c4c3": 18,
+          "c4c5": 10,
+          "c4d3": 18,
+          "c4d4": 14,
+          "c4d5": 14,
+          "h1a1": 12,
+          "h1b1": 10,
+          "h1c1": 10,
+          "h1d1": 12,
+          "h1e1": 12,
+          "h1f1": 12,
+          "h1g1": 12,
+          "h1h2": 12,
+          "h1h3": 12,
+          "h1h4": 12,
+          "h1h5": 12,
+          "h1h6": 14,
+          "h1h7": 10,
+          "h1h8": 16
+        }
+      }
+    },
+    {
+      "before": [
+        33,
+        7,
+        49
+      ],
+      "black": {
+        "depth": 6,
+        "source": "https://tablebase.lichess.ovh/standard?fen=8/1k6/8/1K6/8/8/8/2R5_b_-_-_0_1",
+        "successors": {
+          "b7a7": 5,
+          "b7a8": 5,
+          "b7b8": 3
+        }
+      },
+      "board": [
+        33,
+        2,
+        48
+      ],
+      "defense": "b7a7",
+      "move": "h1c1",
+      "remaining": 5,
+      "white": {
+        "depth": 7,
+        "source": "https://tablebase.lichess.ovh/standard?fen=8/1k6/8/1K6/8/8/8/7R_w_-_-_0_1",
+        "successors": {
+          "b5a4": 20,
+          "b5a5": 22,
+          "b5b4": 16,
+          "b5c4": 16,
+          "b5c5": 12,
+          "h1a1": 10,
+          "h1b1": 10,
+          "h1c1": 6,
+          "h1d1": 10,
+          "h1e1": 10,
+          "h1f1": 10,
+          "h1g1": 10,
+          "h1h2": 10,
+          "h1h3": 10,
+          "h1h4": 10,
+          "h1h5": 10,
+          "h1h6": 20,
+          "h1h7": 14,
+          "h1h8": 22
+        }
+      }
+    },
+    {
+      "before": [
+        33,
+        2,
+        48
+      ],
+      "black": {
+        "depth": 4,
+        "source": "https://tablebase.lichess.ovh/standard?fen=8/k7/2K5/8/8/8/8/2R5_b_-_-_0_1",
+        "successors": {
+          "a7a6": 1,
+          "a7a8": 3,
+          "a7b8": 3
+        }
+      },
+      "board": [
+        42,
+        2,
+        56
+      ],
+      "defense": "a7a8",
+      "move": "b5c6",
+      "remaining": 3,
+      "white": {
+        "depth": 5,
+        "source": "https://tablebase.lichess.ovh/standard?fen=8/k7/8/1K6/8/8/8/2R5_w_-_-_0_1",
+        "successors": {
+          "b5a4": 12,
+          "b5a5": 8,
+          "b5b4": 12,
+          "b5c4": 12,
+          "b5c5": 8,
+          "b5c6": 4,
+          "c1a1": 8,
+          "c1b1": 8,
+          "c1c2": 8,
+          "c1c3": 8,
+          "c1c4": 8,
+          "c1c5": 8,
+          "c1c6": 8,
+          "c1c7": 6,
+          "c1c8": 8,
+          "c1d1": 8,
+          "c1e1": 8,
+          "c1f1": 8,
+          "c1g1": 8,
+          "c1h1": 8
+        }
+      }
+    },
+    {
+      "before": [
+        42,
+        2,
+        56
+      ],
+      "black": {
+        "depth": 2,
+        "source": "https://tablebase.lichess.ovh/standard?fen=k7/2K5/8/8/8/8/8/2R5_b_-_-_0_1",
+        "successors": {
+          "a8a7": 1
+        }
+      },
+      "board": [
+        50,
+        2,
+        48
+      ],
+      "defense": "a8a7",
+      "move": "c6c7",
+      "remaining": 1,
+      "white": {
+        "depth": 3,
+        "source": "https://tablebase.lichess.ovh/standard?fen=k7/8/2K5/8/8/8/8/2R5_w_-_-_0_1",
+        "successors": {
+          "c1a1": 4,
+          "c1b1": 6,
+          "c1c2": 6,
+          "c1c3": 6,
+          "c1c4": 6,
+          "c1c5": 6,
+          "c1d1": 4,
+          "c1e1": 4,
+          "c1f1": 4,
+          "c1g1": 4,
+          "c1h1": 4,
+          "c6b5": 8,
+          "c6b6": 4,
+          "c6c5": 8,
+          "c6c7": 2,
+          "c6d5": 14,
+          "c6d6": 10,
+          "c6d7": 10
+        }
+      }
+    },
+    {
+      "before": [
+        50,
+        2,
+        48
+      ],
+      "black": null,
+      "board": [
+        50,
+        0,
+        48
+      ],
+      "defense": null,
+      "move": "c1a1",
+      "remaining": 0,
+      "white": {
+        "depth": 1,
+        "source": "https://tablebase.lichess.ovh/standard?fen=8/k1K5/8/8/8/8/8/2R5_w_-_-_0_1",
+        "successors": {
+          "c1a1": 0,
+          "c1b1": 14,
+          "c1c2": 4,
+          "c1c3": 4,
+          "c1c4": 4,
+          "c1c5": 4,
+          "c1c6": 2,
+          "c1d1": 4,
+          "c1e1": 4,
+          "c1f1": 4,
+          "c1g1": 4,
+          "c1h1": 4,
+          "c7c6": 4,
+          "c7c8": 22,
+          "c7d6": 12,
+          "c7d7": 20,
+          "c7d8": 22
+        }
+      }
+    }
+  ]
+}

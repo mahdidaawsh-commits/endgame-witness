@@ -22,3 +22,5 @@ node --test tests/rpc-preflight.test.cjs
 ```
 
 The StudioNet proof re-fetches the live tablebase using a separate python-chess verifier. It checks the complete nine-ply line from the example position, including a legal move that is too slow and a defense with three legal choices of two different depths. The verifier checks accepted history, signed calldata, per-wallet isolation and terminal replay rejection. Generic CLI receipt transport is reused under MIT.
+
+[StudioNet proofs](proofs/README.md) · [Submission text](SUBMISSION.md).
